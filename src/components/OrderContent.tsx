@@ -1,11 +1,12 @@
-import { OrderItem } from '../types'
+import { MenuItem, OrderItem } from '../types'
 import { formatCurrency } from '../helpers'
 
 type OrderContentProps = {
     order: OrderItem[]
+    removeItem : (item: MenuItem) => void
 }
 
-export default function OrderContent({order}: OrderContentProps) {
+export default function OrderContent({order, removeItem}: OrderContentProps) {
   return (
     <div>
         <h2 className='font-black text-4xl'>Consumo</h2>
