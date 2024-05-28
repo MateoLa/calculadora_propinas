@@ -1,14 +1,18 @@
-# Calculadora de Propinas en react
+# Calculadora de Propinas
 
-Ahora usamos [TailwindCSS](https://tailwindcss.com/) como framework de CSS.<br>
-El código CSS se escribe en cada componente por lo que no hay que importar hojas de estilos en el proyecto.<br>
-Algunas clases de Tailwind se heredan y otras no.
+Desarrollada en React, usando Vite y TailwindCSS como framework para hojas de estilos.<br>
+Contiene un Custom hook y usa useMemo y otros.
+
+##  Tailwind
 
 Seguimos la guía de [instalación](https://tailwindcss.com/docs/guides/vite) para un framework (Vite)
 
+Una ventaja de Tailwind es que el código CSS se escribe en cada componente por lo que no hay que importar hojas de estilos en el proyecto.<br>
+Algunas clases de Tailwind se heredan y otras no.
+
 ## React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR (home module replacement) and some ESLint rules.
 
 Currently, two official plugins are available:
 
